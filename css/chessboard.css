@@ -2,10 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    transform: scale(2);
     border-spacing: 0;
     border-collapse: collapse;
+    font-size: 40px;
 }
 
 .chess-board th {
@@ -23,5 +22,11 @@
 }
 
 .chess-board .black {
-    background: #000;
+    background: #777777;
+}
+
+
+.chess-board td #piece {
+    padding: 18px;
+    font-size: 45px;
 }
