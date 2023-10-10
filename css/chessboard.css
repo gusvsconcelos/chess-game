@@ -9,6 +9,8 @@
 
 .chess-board th {
     padding: .5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 .chess-board td {
